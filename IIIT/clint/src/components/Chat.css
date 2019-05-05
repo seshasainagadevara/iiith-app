@@ -1,0 +1,98 @@
+.Chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  .Chat-header {
+    background-image: linear-gradient(to right bottom, #014083, #093578, #102a6d, #141e62, #171256);
+    overflow: visible;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  .Messages-list {
+    padding: 20px 0;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+    flex-grow: 1;
+    overflow: auto;
+  }
+  
+  .Messages-message {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .Messages-message.currentMember {
+   
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  
+  .Message-content {
+    display: inline-block;
+  }
+  
+  .currentMember > .Message-content {
+    align-items: flex-end;
+  }
+  
+  .Messages-message > .icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px -10px;
+  }
+  
+  .Message-content > .username {
+    display: block;
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+  
+  .Message-content > .text {
+    padding: 10px;
+    max-width: 400px;
+    margin: 0;
+    border-radius: 12px;
+    background-image: linear-gradient(to left top, #100e4a, #2c0c47, #3d0b44, #4b0d40, #56123c);
+    color: white;
+    display: inline-block;
+  }
+  
+  .currentMember > .Message-content .text {
+    background-image: linear-gradient(to right bottom, #ff0808, #ff0056, #e93488, #c458a8, #9b6fb3);;
+  }
+  
+  form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto 40px;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #c20094;;
+    flex-grow: 1;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-image: linear-gradient(to right bottom, #ea013b, #e60059, #d90077, #c20094, #9f1cad);    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+  }

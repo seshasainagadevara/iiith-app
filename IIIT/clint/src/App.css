@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.4;
+}
+
+.header{
+  background-image: linear-gradient(to right bottom, #fd0000, #c10022, #810326, #420f1d, #000000);
+}

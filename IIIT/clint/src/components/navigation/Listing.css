@@ -1,0 +1,23 @@
+.toggle{
+    background-image: linear-gradient(to left top, #830c41, #63275b, #3c355f, #243850, #29353b);
+    color:rgb(255, 255, 255);
+}
+
+.cardItem{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.cardItem:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .scrol {
+    overflow: scroll;
+ 
+}
+.scrol::-webkit-scrollbar { 
+    display: none;  
+}
+.itm{
+    background-image: linear-gradient(to right bottom, #e7fbaa, #ffe2aa, #ffd1ca, #ffcee8, #d9d1f0);
+}

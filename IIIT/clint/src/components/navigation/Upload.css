@@ -1,0 +1,13 @@
+input[type=file]
+{  
+    background-image: linear-gradient(to right bottom, #0f274d, #004c7c, #00728c, #009570, #14b32e);
+}
+.upload
+{
+    background-image: linear-gradient(to left top, #100e4a, #2c0c47, #3d0b44, #4b0d40, #56123c);
+    color:white;
+}
+button{
+    font-size:15px;
+    font-weight:bold;
+}
