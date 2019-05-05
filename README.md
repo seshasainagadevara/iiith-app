@@ -8,7 +8,7 @@ A fullstack app using react, node, express, amazon s3, websockets.
 -Chat container and Overall response rating of bot.
 -Swipeable whatsapp like pages .
 
-## `First start server install node modules:`
+` Install node modules & start server:`
 ### `npm install`
 ### `node index.js`
 
