@@ -64,8 +64,8 @@ class Chat extends Component {
       handleData(data) {
         this.createMessage(data, "1", "IIITH-BOT 👨‍💻", "radial-gradient(circle, #ff0606, #df0044, #a80060, #640066, #171256)");
       }
-     handleOpen()  {
-                 console.log("connected:)");
+     handleOpen(data)  {
+                 console.log("connected:)"+data);
        }
     handleClose() {
               console.log("disconnected");
