@@ -1,6 +1,6 @@
 # iiith-app
 
-A fullstack app using react, node, express, amazon s3, websockets.
+A fullstack app using react, node, express, amazon s3, websockets,mysql.
 
 
 -File upload
